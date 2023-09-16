@@ -12,7 +12,7 @@ def create_table(cursor):
             id INTEGER PRIMARY KEY,
             name TEXT,
             surname TEXT,
-            age INTAGER
+            age INTEGER
         );
     """
     cursor.execute(command)
